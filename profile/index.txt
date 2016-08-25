@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Profile Page</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+
+<body>
+	<div id="background">
+		<img id="profile" src="images/page.jpg">
+		<span>
+			<h1>BIPIN SHARMA</h1>
+			<h3 id="title" align="center"><i>System Engineer at Infosys</i></h3>
+		</span>
+		<br>
+		<div id="links" align="center">
+			<hr class="anchor" style="width:40%;"> 
+				<a href="#">SUMMARY</a>
+				<a href="#">MY MOTTO</a>
+				<a href="#">CURRENT POSITION</a>
+				<a href="#">LETS'S CHAT</a>
+			<hr class="anchor" style="width:40%;">
+		</div>
+	</div>
+
+	<div id="summary">
+		<h4>SUMMARY</h4>
+		<hr class="sum" align="left">
+		<h3 id="content" align="justify" ><i>Hi, my name is Bipin Sharma and I specialize in Information Technology and Services industry. Currently, I work as System Engineer at Infosys. I love working with passionate people and sharing what I've learned with them. This website is my window to the world where you can find more about me and then get in touch for a chat about potential projects.</i></h3>
+	</div>
+
+	<div id="motto">
+		<h3>MY MOTTO</h3>
+		<hr class="anchor" style="width:5%;">
+		<h1 id="mottotext"><i>Whatever doesn't kill you makes you stronger.</i></h1>
+	</div>
+
+	<div id="currentposition">
+		<h4>CURRENT POSITION</h4>
+		<hr class="sum" align="left" id="row">
+		<h2 id="infosys">Infosys</h2>
+		<h3 align="justify" style="color:grey; line-height:10%;"><b>System Engineer</b> Feb 2016 - Present</h3>
+		<h3 style="font-size:16px;">I have worked on several projects like Reliance E-Commerce (Q&ampA) and performed Performance Testing in India Post(DOP RSI). I am currently working on BSLI Development using Java J2EE.</h3>
+		<img id="infosyslogo" src="images/infosys.png">
+	</div>
+
+</body>
+</html>
